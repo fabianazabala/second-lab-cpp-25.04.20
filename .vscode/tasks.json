@@ -1,0 +1,18 @@
+{    
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Debug",
+            "type": "shell",
+            "command": "cl",
+            "args": [
+                "/MDd /W4 /EHsc /ZI",
+                "3a.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
